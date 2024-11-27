@@ -1,0 +1,716 @@
+{
+  "match_id": "384273",
+  "country_id": "44",
+  "country_name": "England",
+  "league_id": "152",
+  "league_name": "Premier League",
+  "match_date": "2024-08-31",
+  "match_status": "Finished",
+  "match_time": "13:30",
+  "match_hometeam_id": "141",
+  "match_hometeam_name": "Arsenal",
+  "match_hometeam_score": "1",
+  "match_awayteam_name": "Brighton & Hove Albion",
+  "match_awayteam_id": "3079",
+  "match_awayteam_score": "1",
+  "match_hometeam_halftime_score": "1",
+  "match_awayteam_halftime_score": "0",
+  "match_hometeam_extra_score": "",
+  "match_awayteam_extra_score": "",
+  "match_hometeam_penalty_score": "",
+  "match_awayteam_penalty_score": "",
+  "match_hometeam_ft_score": "1",
+  "match_awayteam_ft_score": "1",
+  "match_hometeam_system": "4-3-3",
+  "match_awayteam_system": "4-2-3-1",
+  "match_live": "0",
+  "match_round": "3",
+  "match_stadium": "Emirates Stadium (London)",
+  "match_referee": "C. Kavanagh",
+  "team_home_badge": "https://apiv3.apifootball.com/badges/141_arsenal.jpg",
+  "team_away_badge": "https://apiv3.apifootball.com/badges/3079_brighton--hove-albion.jpg",
+  "league_logo": "https://apiv3.apifootball.com/badges/logo_leagues/152_premier-league.png",
+  "country_logo": "https://apiv3.apifootball.com/badges/logo_country/44_england.png",
+  "league_year": "2024/2025",
+  "fk_stage_key": "6",
+  "stage_name": "Current",
+  "goalscorer": [
+    {
+      "time": "38",
+      "home_scorer": "K. Havertz",
+      "home_scorer_id": "141808407",
+      "home_assist": "B. Saka",
+      "home_assist_id": "2764979995",
+      "score": "1 - 0",
+      "away_scorer": "",
+      "away_scorer_id": "",
+      "away_assist": "",
+      "away_assist_id": "",
+      "info": "",
+      "score_info_time": "1st Half"
+    },
+    {
+      "time": "58",
+      "home_scorer": "",
+      "home_scorer_id": "",
+      "home_assist": "",
+      "home_assist_id": "",
+      "score": "1 - 1",
+      "away_scorer": "Joao Pedro",
+      "away_scorer_id": "114577412",
+      "away_assist": "",
+      "away_assist_id": "",
+      "info": "",
+      "score_info_time": "2nd Half"
+    }
+  ],
+  "substitutions": {
+    "home": [
+      {
+        "time": "59",
+        "substitution": "L. Trossard | R. Calafiori",
+        "substitution_player_id": "1966766994 | 3218384104"
+      },
+      {
+        "time": "73",
+        "substitution": "M. Ødegaard | Gabriel Martinelli",
+        "substitution_player_id": "1482579047 | 1818970307"
+      },
+      {
+        "time": "80",
+        "substitution": "J. Timber | O. Zinchenko",
+        "substitution_player_id": "3130336844 | 1026371457"
+      }
+    ],
+    "away": [
+      {
+        "time": "17",
+        "substitution": "J. Milner | Y. Ayari",
+        "substitution_player_id": "10444460 | 3812827858"
+      },
+      {
+        "time": "71",
+        "substitution": "Y. Minteh | G. Rutter",
+        "substitution_player_id": "3199937173 | 3124809347"
+      },
+      {
+        "time": "72",
+        "substitution": "J. Veltman | P. Estupiñán",
+        "substitution_player_id": "395989381 | 1337700812"
+      },
+      {
+        "time": "85",
+        "substitution": "D. Welbeck | J. Enciso",
+        "substitution_player_id": "3206548206 | 1501343529"
+      },
+      {
+        "time": "85",
+        "substitution": "K. Mitoma | S. Adingra",
+        "substitution_player_id": "2966157322 | 3669467583"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "time": "42",
+      "home_fault": "D. Rice",
+      "card": "yellow card",
+      "away_fault": "",
+      "info": "",
+      "home_player_id": "353204575",
+      "away_player_id": "",
+      "score_info_time": "1st Half"
+    },
+    {
+      "time": "45+4",
+      "home_fault": "T. Partey",
+      "card": "yellow card",
+      "away_fault": "",
+      "info": "",
+      "home_player_id": "2535920795",
+      "away_player_id": "",
+      "score_info_time": "1st Half"
+    },
+    {
+      "time": "49",
+      "home_fault": "D. Rice",
+      "card": "yellow card",
+      "away_fault": "",
+      "info": "",
+      "home_player_id": "353204575",
+      "away_player_id": "",
+      "score_info_time": "2nd Half"
+    },
+    {
+      "time": "49",
+      "home_fault": "D. Rice",
+      "card": "red card",
+      "away_fault": "",
+      "info": "",
+      "home_player_id": "353204575",
+      "away_player_id": "",
+      "score_info_time": "2nd Half"
+    },
+    {
+      "time": "70",
+      "home_fault": "J. Timber",
+      "card": "yellow card",
+      "away_fault": "",
+      "info": "",
+      "home_player_id": "3130336844",
+      "away_player_id": "",
+      "score_info_time": "2nd Half"
+    },
+    {
+      "time": "70",
+      "home_fault": "",
+      "card": "yellow card",
+      "away_fault": "Y. Minteh",
+      "info": "",
+      "home_player_id": "",
+      "away_player_id": "3199937173",
+      "score_info_time": "2nd Half"
+    },
+    {
+      "time": "90+4",
+      "home_fault": "D. Raya",
+      "card": "yellow card",
+      "away_fault": "",
+      "info": "",
+      "home_player_id": "3446405013",
+      "away_player_id": "",
+      "score_info_time": "2nd Half"
+    },
+    {
+      "time": "90+6",
+      "home_fault": "",
+      "card": "yellow card",
+      "away_fault": "Joao Pedro",
+      "info": "",
+      "home_player_id": "",
+      "away_player_id": "114577412",
+      "score_info_time": "2nd Half"
+    }
+  ],
+  "lineup": {
+    "home": {
+      "starting_lineups": [
+        {
+          "lineup_player": "Leandro Trossard",
+          "lineup_number": "19",
+          "lineup_position": "11",
+          "player_key": "1966766994"
+        },
+        {
+          "lineup_player": "Thomas Partey",
+          "lineup_number": "5",
+          "lineup_position": "7",
+          "player_key": "2535920795"
+        },
+        {
+          "lineup_player": "David Raya",
+          "lineup_number": "22",
+          "lineup_position": "1",
+          "player_key": "3446405013"
+        },
+        {
+          "lineup_player": "Martin Ødegaard",
+          "lineup_number": "8",
+          "lineup_position": "6",
+          "player_key": "1482579047"
+        },
+        {
+          "lineup_player": "Declan Rice",
+          "lineup_number": "41",
+          "lineup_position": "8",
+          "player_key": "353204575"
+        },
+        {
+          "lineup_player": "Gabriel Magalhães",
+          "lineup_number": "6",
+          "lineup_position": "4",
+          "player_key": "1215841429"
+        },
+        {
+          "lineup_player": "Kai Havertz",
+          "lineup_number": "29",
+          "lineup_position": "10",
+          "player_key": "141808407"
+        },
+        {
+          "lineup_player": "Benjamin White",
+          "lineup_number": "4",
+          "lineup_position": "2",
+          "player_key": "1058876140"
+        },
+        {
+          "lineup_player": "Jurriën Timber",
+          "lineup_number": "12",
+          "lineup_position": "5",
+          "player_key": "3130336844"
+        },
+        {
+          "lineup_player": "Bukayo Saka",
+          "lineup_number": "7",
+          "lineup_position": "9",
+          "player_key": "2764979995"
+        },
+        {
+          "lineup_player": "William Saliba",
+          "lineup_number": "2",
+          "lineup_position": "3",
+          "player_key": "1690625216"
+        }
+      ],
+      "substitutes": [
+        {
+          "lineup_player": "Jorginho",
+          "lineup_number": "20",
+          "lineup_position": "0",
+          "player_key": "3583934330"
+        },
+        {
+          "lineup_player": "Oleksandr Zinchenko",
+          "lineup_number": "17",
+          "lineup_position": "0",
+          "player_key": "1026371457"
+        },
+        {
+          "lineup_player": "Jakub Kiwior",
+          "lineup_number": "15",
+          "lineup_position": "0",
+          "player_key": "4288773978"
+        },
+        {
+          "lineup_player": "Gabriel Martinelli",
+          "lineup_number": "11",
+          "lineup_position": "0",
+          "player_key": "1818970307"
+        },
+        {
+          "lineup_player": "Riccardo Calafiori",
+          "lineup_number": "33",
+          "lineup_position": "0",
+          "player_key": "3218384104"
+        },
+        {
+          "lineup_player": "Salah Oulad M'Hand",
+          "lineup_number": "56",
+          "lineup_position": "0",
+          "player_key": "1196416830"
+        },
+        {
+          "lineup_player": "Myles Lewis-Skelly",
+          "lineup_number": "49",
+          "lineup_position": "0",
+          "player_key": "2110302551"
+        },
+        {
+          "lineup_player": "Ethan Nwaneri",
+          "lineup_number": "53",
+          "lineup_position": "0",
+          "player_key": "2479278203"
+        },
+        {
+          "lineup_player": "Tommy Setford",
+          "lineup_number": "36",
+          "lineup_position": "0",
+          "player_key": "66058151"
+        }
+      ],
+      "coach": [
+        {
+          "lineup_player": "Mikel Arteta",
+          "lineup_number": "",
+          "lineup_position": "",
+          "player_key": "245591731"
+        }
+      ],
+      "missing_players": []
+    },
+    "away": {
+      "starting_lineups": [
+        {
+          "lineup_player": "Joël Veltman",
+          "lineup_number": "34",
+          "lineup_position": "2",
+          "player_key": "395989381"
+        },
+        {
+          "lineup_player": "Lewis Dunk",
+          "lineup_number": "5",
+          "lineup_position": "4",
+          "player_key": "4085081223"
+        },
+        {
+          "lineup_player": "James Milner",
+          "lineup_number": "6",
+          "lineup_position": "6",
+          "player_key": "10444460"
+        },
+        {
+          "lineup_player": "Kaoru Mitoma",
+          "lineup_number": "22",
+          "lineup_position": "10",
+          "player_key": "2966157322"
+        },
+        {
+          "lineup_player": "Danny Welbeck",
+          "lineup_number": "18",
+          "lineup_position": "11",
+          "player_key": "3206548206"
+        },
+        {
+          "lineup_player": "Jan Paul van Hecke",
+          "lineup_number": "29",
+          "lineup_position": "3",
+          "player_key": "2724940903"
+        },
+        {
+          "lineup_player": "João Pedro",
+          "lineup_number": "9",
+          "lineup_position": "9",
+          "player_key": "114577412"
+        },
+        {
+          "lineup_player": "Bart Verbruggen",
+          "lineup_number": "1",
+          "lineup_position": "1",
+          "player_key": "1798167778"
+        },
+        {
+          "lineup_player": "Jack Hinshelwood",
+          "lineup_number": "41",
+          "lineup_position": "5",
+          "player_key": "2625189983"
+        },
+        {
+          "lineup_player": "Carlos Baleba",
+          "lineup_number": "20",
+          "lineup_position": "7",
+          "player_key": "1190599448"
+        },
+        {
+          "lineup_player": "Yankuba Minteh",
+          "lineup_number": "17",
+          "lineup_position": "8",
+          "player_key": "3199937173"
+        }
+      ],
+      "substitutes": [
+        {
+          "lineup_player": "Jason Steele",
+          "lineup_number": "23",
+          "lineup_position": "0",
+          "player_key": "2156213203"
+        },
+        {
+          "lineup_player": "Adam Webster",
+          "lineup_number": "4",
+          "lineup_position": "0",
+          "player_key": "424760977"
+        },
+        {
+          "lineup_player": "Pervis Estupiñán",
+          "lineup_number": "30",
+          "lineup_position": "0",
+          "player_key": "1337700812"
+        },
+        {
+          "lineup_player": "Igor Júlio",
+          "lineup_number": "3",
+          "lineup_position": "0",
+          "player_key": "3137851495"
+        },
+        {
+          "lineup_player": "Tariq Lamptey",
+          "lineup_number": "2",
+          "lineup_position": "0",
+          "player_key": "3653924804"
+        },
+        {
+          "lineup_player": "Georginio Rutter",
+          "lineup_number": "14",
+          "lineup_position": "0",
+          "player_key": "3124809347"
+        },
+        {
+          "lineup_player": "Julio Enciso",
+          "lineup_number": "10",
+          "lineup_position": "0",
+          "player_key": "1501343529"
+        },
+        {
+          "lineup_player": "Yasin Ayari",
+          "lineup_number": "26",
+          "lineup_position": "0",
+          "player_key": "3812827858"
+        },
+        {
+          "lineup_player": "Simon Adingra",
+          "lineup_number": "24",
+          "lineup_position": "0",
+          "player_key": "3669467583"
+        }
+      ],
+      "coach": [
+        {
+          "lineup_player": "F. Hürzeler",
+          "lineup_number": "",
+          "lineup_position": "",
+          "player_key": "469763003"
+        }
+      ],
+      "missing_players": []
+    }
+  },
+  "statistics": [
+    {
+      "type": "Corners",
+      "home": "3",
+      "away": "7"
+    },
+    {
+      "type": "Throw In",
+      "home": "13",
+      "away": "14"
+    },
+    {
+      "type": "Free Kick",
+      "home": "8",
+      "away": "15"
+    },
+    {
+      "type": "Goal Kick",
+      "home": "10",
+      "away": "5"
+    },
+    {
+      "type": "Penalty",
+      "home": "0",
+      "away": "0"
+    },
+    {
+      "type": "Substitution",
+      "home": "3",
+      "away": "5"
+    },
+    {
+      "type": "Attacks",
+      "home": "69",
+      "away": "85"
+    },
+    {
+      "type": "Dangerous Attacks",
+      "home": "39",
+      "away": "59"
+    },
+    {
+      "type": "On Target",
+      "home": "7",
+      "away": "4"
+    },
+    {
+      "type": "Off Target",
+      "home": "4",
+      "away": "18"
+    },
+    {
+      "type": "Shots Total",
+      "home": "11",
+      "away": "22"
+    },
+    {
+      "type": "Shots On Goal",
+      "home": "7",
+      "away": "4"
+    },
+    {
+      "type": "Shots Off Goal",
+      "home": "2",
+      "away": "10"
+    },
+    {
+      "type": "Shots Blocked",
+      "home": "2",
+      "away": "8"
+    },
+    {
+      "type": "Shots Inside Box",
+      "home": "10",
+      "away": "15"
+    },
+    {
+      "type": "Shots Outside Box",
+      "home": "1",
+      "away": "7"
+    },
+    {
+      "type": "Fouls",
+      "home": "12",
+      "away": "7"
+    },
+    {
+      "type": "Corners",
+      "home": "3",
+      "away": "7"
+    },
+    {
+      "type": "Offsides",
+      "home": "3",
+      "away": "1"
+    },
+    {
+      "type": "Ball Possession",
+      "home": "36%",
+      "away": "64%"
+    },
+    {
+      "type": "Yellow Cards",
+      "home": "5",
+      "away": "2"
+    },
+    {
+      "type": "Red Cards",
+      "home": "1",
+      "away": "0"
+    },
+    {
+      "type": "Saves",
+      "home": "3",
+      "away": "6"
+    },
+    {
+      "type": "Passes Total",
+      "home": "269",
+      "away": "456"
+    },
+    {
+      "type": "Passes Accurate",
+      "home": "198",
+      "away": "390"
+    }
+  ],
+  "statistics_1half": [
+    {
+      "type": "Corners",
+      "home": "2",
+      "away": "1"
+    },
+    {
+      "type": "Throw In",
+      "home": "5",
+      "away": "7"
+    },
+    {
+      "type": "Free Kick",
+      "home": "5",
+      "away": "9"
+    },
+    {
+      "type": "Goal Kick",
+      "home": "2",
+      "away": "3"
+    },
+    {
+      "type": "Penalty",
+      "home": "0",
+      "away": "0"
+    },
+    {
+      "type": "Substitution",
+      "home": "0",
+      "away": "1"
+    },
+    {
+      "type": "Attacks",
+      "home": "44",
+      "away": "31"
+    },
+    {
+      "type": "Dangerous Attacks",
+      "home": "26",
+      "away": "17"
+    },
+    {
+      "type": "On Target",
+      "home": "5",
+      "away": "0"
+    },
+    {
+      "type": "Off Target",
+      "home": "1",
+      "away": "3"
+    },
+    {
+      "type": "Shots Total",
+      "home": "6",
+      "away": "3"
+    },
+    {
+      "type": "Shots On Goal",
+      "home": "5",
+      "away": "0"
+    },
+    {
+      "type": "Shots Off Goal",
+      "home": "0",
+      "away": "2"
+    },
+    {
+      "type": "Shots Blocked",
+      "home": "1",
+      "away": "1"
+    },
+    {
+      "type": "Shots Inside Box",
+      "home": "5",
+      "away": "2"
+    },
+    {
+      "type": "Shots Outside Box",
+      "home": "1",
+      "away": "1"
+    },
+    {
+      "type": "Fouls",
+      "home": "6",
+      "away": "5"
+    },
+    {
+      "type": "Corners",
+      "home": "2",
+      "away": "1"
+    },
+    {
+      "type": "Offsides",
+      "home": "3",
+      "away": "0"
+    },
+    {
+      "type": "Ball Possession",
+      "home": "48%",
+      "away": "52%"
+    },
+    {
+      "type": "Yellow Cards",
+      "home": "2",
+      "away": "0"
+    },
+    {
+      "type": "Saves",
+      "home": "0",
+      "away": "4"
+    },
+    {
+      "type": "Passes Total",
+      "home": "184",
+      "away": "198"
+    },
+    {
+      "type": "Passes Accurate",
+      "home": "150",
+      "away": "158"
+    }
+  ]
+}

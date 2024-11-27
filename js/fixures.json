@@ -1,0 +1,2552 @@
+{
+  "data": {
+    "fixtures": [
+      {
+        "finished": true,
+        "finished_provisional": true,
+        "id": 21,
+        "kickoff_time": "2024-08-31T11:30:00Z",
+        "minutes": 90,
+        "started": true,
+        "stats": [
+          {
+            "a": [
+              {
+                "element": 129,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 4,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 135,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 17,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 129,
+                "value": 1
+              },
+              {
+                "element": 135,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 6,
+                "value": 1
+              },
+              {
+                "element": 15,
+                "value": 1
+              },
+              {
+                "element": 20,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": [
+              {
+                "element": 16,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 146,
+                "value": 6
+              }
+            ],
+            "h": [
+              {
+                "element": 15,
+                "value": 3
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 129,
+                "value": 3
+              }
+            ],
+            "h": [
+              {
+                "element": 4,
+                "value": 2
+              },
+              {
+                "element": 17,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 129,
+                "value": 39
+              },
+              {
+                "element": 146,
+                "value": 18
+              },
+              {
+                "element": 120,
+                "value": 17
+              },
+              {
+                "element": 126,
+                "value": 13
+              },
+              {
+                "element": 136,
+                "value": 13
+              },
+              {
+                "element": 135,
+                "value": 12
+              },
+              {
+                "element": 144,
+                "value": 11
+              },
+              {
+                "element": 115,
+                "value": 10
+              },
+              {
+                "element": 600,
+                "value": 8
+              },
+              {
+                "element": 121,
+                "value": 6
+              },
+              {
+                "element": 122,
+                "value": 5
+              },
+              {
+                "element": 145,
+                "value": 5
+              },
+              {
+                "element": 148,
+                "value": 3
+              },
+              {
+                "element": 134,
+                "value": 2
+              },
+              {
+                "element": 618,
+                "value": 2
+              },
+              {
+                "element": 113,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 4,
+                "value": 34
+              },
+              {
+                "element": 17,
+                "value": 21
+              },
+              {
+                "element": 3,
+                "value": 17
+              },
+              {
+                "element": 23,
+                "value": 11
+              },
+              {
+                "element": 18,
+                "value": 10
+              },
+              {
+                "element": 13,
+                "value": 9
+              },
+              {
+                "element": 15,
+                "value": 8
+              },
+              {
+                "element": 20,
+                "value": 8
+              },
+              {
+                "element": 24,
+                "value": 8
+              },
+              {
+                "element": 6,
+                "value": 3
+              },
+              {
+                "element": 25,
+                "value": 3
+              },
+              {
+                "element": 578,
+                "value": 3
+              },
+              {
+                "element": 9,
+                "value": 2
+              },
+              {
+                "element": 16,
+                "value": -10
+              }
+            ]
+          }
+        ],
+        "team_h_score": 1,
+        "team_a_score": 1,
+        "team_a": {
+          "name": "Brighton",
+          "code": 36
+        },
+        "team_h": {
+          "code": 3,
+          "name": "Arsenal"
+        }
+      },
+      {
+        "finished": true,
+        "finished_provisional": true,
+        "id": 22,
+        "kickoff_time": "2024-08-31T14:00:00Z",
+        "minutes": 90,
+        "started": true,
+        "stats": [
+          {
+            "a": [
+              {
+                "element": 474,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 99,
+                "value": 2
+              },
+              {
+                "element": 110,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 463,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 88,
+                "value": 1
+              },
+              {
+                "element": 95,
+                "value": 1
+              },
+              {
+                "element": 106,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 461,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 99,
+                "value": 1
+              },
+              {
+                "element": 104,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 14,
+                "value": 4
+              }
+            ],
+            "h": [
+              {
+                "element": 91,
+                "value": 5
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": [
+              {
+                "element": 99,
+                "value": 3
+              },
+              {
+                "element": 110,
+                "value": 2
+              },
+              {
+                "element": 95,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 518,
+                "value": 22
+              },
+              {
+                "element": 474,
+                "value": 21
+              },
+              {
+                "element": 463,
+                "value": 11
+              },
+              {
+                "element": 608,
+                "value": 10
+              },
+              {
+                "element": 452,
+                "value": 9
+              },
+              {
+                "element": 623,
+                "value": 9
+              },
+              {
+                "element": 476,
+                "value": 8
+              },
+              {
+                "element": 584,
+                "value": 7
+              },
+              {
+                "element": 471,
+                "value": 6
+              },
+              {
+                "element": 14,
+                "value": 5
+              },
+              {
+                "element": 27,
+                "value": 4
+              },
+              {
+                "element": 455,
+                "value": 3
+              },
+              {
+                "element": 461,
+                "value": -1
+              },
+              {
+                "element": 472,
+                "value": -4
+              }
+            ],
+            "h": [
+              {
+                "element": 99,
+                "value": 64
+              },
+              {
+                "element": 110,
+                "value": 36
+              },
+              {
+                "element": 95,
+                "value": 24
+              },
+              {
+                "element": 88,
+                "value": 21
+              },
+              {
+                "element": 89,
+                "value": 19
+              },
+              {
+                "element": 91,
+                "value": 18
+              },
+              {
+                "element": 101,
+                "value": 16
+              },
+              {
+                "element": 106,
+                "value": 16
+              },
+              {
+                "element": 94,
+                "value": 14
+              },
+              {
+                "element": 104,
+                "value": 9
+              },
+              {
+                "element": 86,
+                "value": 5
+              },
+              {
+                "element": 98,
+                "value": 4
+              },
+              {
+                "element": 105,
+                "value": 2
+              },
+              {
+                "element": 314,
+                "value": 1
+              },
+              {
+                "element": 338,
+                "value": -3
+              }
+            ]
+          }
+        ],
+        "team_h_score": 3,
+        "team_a_score": 1,
+        "team_a": {
+          "name": "Southampton",
+          "code": 20
+        },
+        "team_h": {
+          "code": 94,
+          "name": "Brentford"
+        }
+      },
+      {
+        "finished": true,
+        "finished_provisional": true,
+        "id": 24,
+        "kickoff_time": "2024-08-31T14:00:00Z",
+        "minutes": 90,
+        "started": true,
+        "stats": [
+          {
+            "a": [
+              {
+                "element": 64,
+                "value": 1
+              },
+              {
+                "element": 78,
+                "value": 1
+              },
+              {
+                "element": 80,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 220,
+                "value": 1
+              },
+              {
+                "element": 228,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 71,
+                "value": 1
+              },
+              {
+                "element": 74,
+                "value": 1
+              },
+              {
+                "element": 80,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 220,
+                "value": 1
+              },
+              {
+                "element": 230,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 78,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 226,
+                "value": 1
+              },
+              {
+                "element": 228,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 152,
+                "value": 6
+              }
+            ],
+            "h": [
+              {
+                "element": 235,
+                "value": 4
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 80,
+                "value": 2
+              }
+            ],
+            "h": [
+              {
+                "element": 220,
+                "value": 3
+              },
+              {
+                "element": 230,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 80,
+                "value": 38
+              },
+              {
+                "element": 64,
+                "value": 31
+              },
+              {
+                "element": 78,
+                "value": 23
+              },
+              {
+                "element": 71,
+                "value": 22
+              },
+              {
+                "element": 74,
+                "value": 22
+              },
+              {
+                "element": 63,
+                "value": 12
+              },
+              {
+                "element": 152,
+                "value": 12
+              },
+              {
+                "element": 79,
+                "value": 6
+              },
+              {
+                "element": 83,
+                "value": 6
+              },
+              {
+                "element": 85,
+                "value": 6
+              },
+              {
+                "element": 81,
+                "value": 5
+              },
+              {
+                "element": 77,
+                "value": 4
+              },
+              {
+                "element": 580,
+                "value": 4
+              },
+              {
+                "element": 70,
+                "value": 3
+              },
+              {
+                "element": 617,
+                "value": 3
+              }
+            ],
+            "h": [
+              {
+                "element": 220,
+                "value": 39
+              },
+              {
+                "element": 230,
+                "value": 36
+              },
+              {
+                "element": 224,
+                "value": 26
+              },
+              {
+                "element": 222,
+                "value": 15
+              },
+              {
+                "element": 232,
+                "value": 11
+              },
+              {
+                "element": 226,
+                "value": 9
+              },
+              {
+                "element": 228,
+                "value": 7
+              },
+              {
+                "element": 235,
+                "value": 5
+              },
+              {
+                "element": 217,
+                "value": 4
+              },
+              {
+                "element": 218,
+                "value": 3
+              },
+              {
+                "element": 231,
+                "value": 1
+              },
+              {
+                "element": 221,
+                "value": -1
+              },
+              {
+                "element": 236,
+                "value": -2
+              }
+            ]
+          }
+        ],
+        "team_h_score": 2,
+        "team_a_score": 3,
+        "team_a": {
+          "name": "Bournemouth",
+          "code": 91
+        },
+        "team_h": {
+          "code": 11,
+          "name": "Everton"
+        }
+      },
+      {
+        "finished": true,
+        "finished_provisional": true,
+        "id": 25,
+        "kickoff_time": "2024-08-31T14:00:00Z",
+        "minutes": 90,
+        "started": true,
+        "stats": [
+          {
+            "a": [
+              {
+                "element": 239,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 268,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 255,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 267,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 239,
+                "value": 1
+              },
+              {
+                "element": 249,
+                "value": 1
+              },
+              {
+                "element": 255,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 260,
+                "value": 1
+              },
+              {
+                "element": 278,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 248,
+                "value": 3
+              }
+            ],
+            "h": [
+              {
+                "element": 568,
+                "value": 3
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 239,
+                "value": 3
+              }
+            ],
+            "h": [
+              {
+                "element": 267,
+                "value": 2
+              },
+              {
+                "element": 268,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 239,
+                "value": 33
+              },
+              {
+                "element": 255,
+                "value": 21
+              },
+              {
+                "element": 247,
+                "value": 16
+              },
+              {
+                "element": 19,
+                "value": 14
+              },
+              {
+                "element": 248,
+                "value": 14
+              },
+              {
+                "element": 257,
+                "value": 11
+              },
+              {
+                "element": 240,
+                "value": 10
+              },
+              {
+                "element": 241,
+                "value": 10
+              },
+              {
+                "element": 249,
+                "value": 10
+              },
+              {
+                "element": 251,
+                "value": 6
+              },
+              {
+                "element": 252,
+                "value": 6
+              },
+              {
+                "element": 245,
+                "value": 5
+              },
+              {
+                "element": 622,
+                "value": 4
+              },
+              {
+                "element": 243,
+                "value": 3
+              },
+              {
+                "element": 254,
+                "value": 3
+              },
+              {
+                "element": 259,
+                "value": 3
+              }
+            ],
+            "h": [
+              {
+                "element": 267,
+                "value": 31
+              },
+              {
+                "element": 268,
+                "value": 30
+              },
+              {
+                "element": 274,
+                "value": 18
+              },
+              {
+                "element": 282,
+                "value": 17
+              },
+              {
+                "element": 278,
+                "value": 13
+              },
+              {
+                "element": 568,
+                "value": 12
+              },
+              {
+                "element": 270,
+                "value": 11
+              },
+              {
+                "element": 284,
+                "value": 11
+              },
+              {
+                "element": 611,
+                "value": 9
+              },
+              {
+                "element": 359,
+                "value": 8
+              },
+              {
+                "element": 632,
+                "value": 7
+              },
+              {
+                "element": 619,
+                "value": 6
+              },
+              {
+                "element": 265,
+                "value": 3
+              },
+              {
+                "element": 631,
+                "value": 2
+              }
+            ]
+          }
+        ],
+        "team_h_score": 1,
+        "team_a_score": 1,
+        "team_a": {
+          "name": "Fulham",
+          "code": 54
+        },
+        "team_h": {
+          "code": 40,
+          "name": "Ipswich"
+        }
+      },
+      {
+        "finished": true,
+        "finished_provisional": true,
+        "id": 26,
+        "kickoff_time": "2024-08-31T14:00:00Z",
+        "minutes": 90,
+        "started": true,
+        "stats": [
+          {
+            "a": [
+              {
+                "element": 38,
+                "value": 1
+              },
+              {
+                "element": 233,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 117,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 36,
+                "value": 1
+              },
+              {
+                "element": 58,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 300,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 38,
+                "value": 1
+              },
+              {
+                "element": 48,
+                "value": 1
+              },
+              {
+                "element": 57,
+                "value": 1
+              },
+              {
+                "element": 233,
+                "value": 1
+              },
+              {
+                "element": 598,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 301,
+                "value": 1
+              },
+              {
+                "element": 306,
+                "value": 1
+              },
+              {
+                "element": 309,
+                "value": 1
+              },
+              {
+                "element": 501,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 47,
+                "value": 2
+              }
+            ],
+            "h": [
+              {
+                "element": 293,
+                "value": 3
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 38,
+                "value": 3
+              },
+              {
+                "element": 36,
+                "value": 2
+              },
+              {
+                "element": 233,
+                "value": 2
+              }
+            ],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 38,
+                "value": 27
+              },
+              {
+                "element": 36,
+                "value": 23
+              },
+              {
+                "element": 233,
+                "value": 23
+              },
+              {
+                "element": 57,
+                "value": 17
+              },
+              {
+                "element": 44,
+                "value": 13
+              },
+              {
+                "element": 53,
+                "value": 13
+              },
+              {
+                "element": 47,
+                "value": 12
+              },
+              {
+                "element": 58,
+                "value": 12
+              },
+              {
+                "element": 54,
+                "value": 9
+              },
+              {
+                "element": 48,
+                "value": 7
+              },
+              {
+                "element": 52,
+                "value": 7
+              },
+              {
+                "element": 50,
+                "value": 6
+              },
+              {
+                "element": 29,
+                "value": 5
+              },
+              {
+                "element": 45,
+                "value": 2
+              },
+              {
+                "element": 28,
+                "value": 1
+              },
+              {
+                "element": 598,
+                "value": -2
+              }
+            ],
+            "h": [
+              {
+                "element": 300,
+                "value": 20
+              },
+              {
+                "element": 117,
+                "value": 19
+              },
+              {
+                "element": 192,
+                "value": 13
+              },
+              {
+                "element": 296,
+                "value": 13
+              },
+              {
+                "element": 501,
+                "value": 13
+              },
+              {
+                "element": 309,
+                "value": 12
+              },
+              {
+                "element": 570,
+                "value": 11
+              },
+              {
+                "element": 293,
+                "value": 10
+              },
+              {
+                "element": 291,
+                "value": 7
+              },
+              {
+                "element": 295,
+                "value": 5
+              },
+              {
+                "element": 301,
+                "value": 5
+              },
+              {
+                "element": 298,
+                "value": 4
+              },
+              {
+                "element": 290,
+                "value": 3
+              },
+              {
+                "element": 635,
+                "value": 3
+              },
+              {
+                "element": 299,
+                "value": 2
+              },
+              {
+                "element": 306,
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "team_h_score": 1,
+        "team_a_score": 2,
+        "team_a": {
+          "name": "Aston Villa",
+          "code": 7
+        },
+        "team_h": {
+          "code": 13,
+          "name": "Leicester"
+        }
+      },
+      {
+        "finished": true,
+        "finished_provisional": true,
+        "id": 29,
+        "kickoff_time": "2024-08-31T14:00:00Z",
+        "minutes": 90,
+        "started": true,
+        "stats": [
+          {
+            "a": [
+              {
+                "element": 535,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 447,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 557,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 423,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 535,
+                "value": 1
+              },
+              {
+                "element": 553,
+                "value": 1
+              },
+              {
+                "element": 557,
+                "value": 1
+              },
+              {
+                "element": 567,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 423,
+                "value": 1
+              },
+              {
+                "element": 433,
+                "value": 1
+              },
+              {
+                "element": 442,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 204,
+                "value": 4
+              }
+            ],
+            "h": [
+              {
+                "element": 443,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 557,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 447,
+                "value": 3
+              },
+              {
+                "element": 423,
+                "value": 2
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 557,
+                "value": 27
+              },
+              {
+                "element": 535,
+                "value": 19
+              },
+              {
+                "element": 541,
+                "value": 15
+              },
+              {
+                "element": 204,
+                "value": 11
+              },
+              {
+                "element": 542,
+                "value": 11
+              },
+              {
+                "element": 558,
+                "value": 10
+              },
+              {
+                "element": 559,
+                "value": 7
+              },
+              {
+                "element": 548,
+                "value": 6
+              },
+              {
+                "element": 566,
+                "value": 6
+              },
+              {
+                "element": 567,
+                "value": 6
+              },
+              {
+                "element": 642,
+                "value": 4
+              },
+              {
+                "element": 543,
+                "value": 3
+              },
+              {
+                "element": 550,
+                "value": 3
+              },
+              {
+                "element": 544,
+                "value": 2
+              },
+              {
+                "element": 533,
+                "value": -2
+              },
+              {
+                "element": 553,
+                "value": -3
+              }
+            ],
+            "h": [
+              {
+                "element": 447,
+                "value": 31
+              },
+              {
+                "element": 423,
+                "value": 28
+              },
+              {
+                "element": 433,
+                "value": 13
+              },
+              {
+                "element": 436,
+                "value": 12
+              },
+              {
+                "element": 422,
+                "value": 10
+              },
+              {
+                "element": 573,
+                "value": 10
+              },
+              {
+                "element": 432,
+                "value": 9
+              },
+              {
+                "element": 434,
+                "value": 9
+              },
+              {
+                "element": 443,
+                "value": 5
+              },
+              {
+                "element": 620,
+                "value": 5
+              },
+              {
+                "element": 442,
+                "value": 4
+              },
+              {
+                "element": 449,
+                "value": 4
+              },
+              {
+                "element": 424,
+                "value": 2
+              },
+              {
+                "element": 437,
+                "value": 1
+              },
+              {
+                "element": 596,
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "team_h_score": 1,
+        "team_a_score": 1,
+        "team_a": {
+          "name": "Wolves",
+          "code": 39
+        },
+        "team_h": {
+          "code": 17,
+          "name": "Nott'm Forest"
+        }
+      },
+      {
+        "finished": true,
+        "finished_provisional": true,
+        "id": 30,
+        "kickoff_time": "2024-08-31T16:30:00Z",
+        "minutes": 90,
+        "started": true,
+        "stats": [
+          {
+            "a": [
+              {
+                "element": 351,
+                "value": 3
+              }
+            ],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 342,
+                "value": 1
+              },
+              {
+                "element": 355,
+                "value": 1
+              },
+              {
+                "element": 356,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 514,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 361,
+                "value": 1
+              }
+            ],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 340,
+                "value": 1
+              },
+              {
+                "element": 345,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 520,
+                "value": 1
+              },
+              {
+                "element": 524,
+                "value": 1
+              },
+              {
+                "element": 588,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 347,
+                "value": 2
+              }
+            ],
+            "h": [
+              {
+                "element": 513,
+                "value": 3
+              },
+              {
+                "element": 521,
+                "value": 2
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 351,
+                "value": 3
+              },
+              {
+                "element": 342,
+                "value": 2
+              },
+              {
+                "element": 355,
+                "value": 1
+              }
+            ],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 351,
+                "value": 93
+              },
+              {
+                "element": 342,
+                "value": 28
+              },
+              {
+                "element": 355,
+                "value": 24
+              },
+              {
+                "element": 354,
+                "value": 22
+              },
+              {
+                "element": 346,
+                "value": 21
+              },
+              {
+                "element": 345,
+                "value": 20
+              },
+              {
+                "element": 356,
+                "value": 18
+              },
+              {
+                "element": 349,
+                "value": 16
+              },
+              {
+                "element": 350,
+                "value": 15
+              },
+              {
+                "element": 347,
+                "value": 12
+              },
+              {
+                "element": 625,
+                "value": 6
+              },
+              {
+                "element": 340,
+                "value": 5
+              },
+              {
+                "element": 341,
+                "value": 4
+              },
+              {
+                "element": 361,
+                "value": 3
+              },
+              {
+                "element": 363,
+                "value": 3
+              }
+            ],
+            "h": [
+              {
+                "element": 514,
+                "value": 20
+              },
+              {
+                "element": 511,
+                "value": 13
+              },
+              {
+                "element": 527,
+                "value": 9
+              },
+              {
+                "element": 588,
+                "value": 9
+              },
+              {
+                "element": 388,
+                "value": 8
+              },
+              {
+                "element": 512,
+                "value": 7
+              },
+              {
+                "element": 587,
+                "value": 5
+              },
+              {
+                "element": 521,
+                "value": 4
+              },
+              {
+                "element": 525,
+                "value": 3
+              },
+              {
+                "element": 513,
+                "value": 2
+              },
+              {
+                "element": 528,
+                "value": 2
+              },
+              {
+                "element": 530,
+                "value": 2
+              },
+              {
+                "element": 589,
+                "value": 2
+              },
+              {
+                "element": 520,
+                "value": -1
+              },
+              {
+                "element": 516,
+                "value": -2
+              },
+              {
+                "element": 524,
+                "value": -5
+              }
+            ]
+          }
+        ],
+        "team_h_score": 1,
+        "team_a_score": 3,
+        "team_a": {
+          "name": "Man City",
+          "code": 43
+        },
+        "team_h": {
+          "code": 21,
+          "name": "West Ham"
+        }
+      },
+      {
+        "finished": true,
+        "finished_provisional": true,
+        "id": 23,
+        "kickoff_time": "2024-09-01T12:30:00Z",
+        "minutes": 90,
+        "started": true,
+        "stats": [
+          {
+            "a": [
+              {
+                "element": 199,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 180,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 193,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 182,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 203,
+                "value": 1
+              },
+              {
+                "element": 211,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 180,
+                "value": 1
+              },
+              {
+                "element": 182,
+                "value": 1
+              },
+              {
+                "element": 189,
+                "value": 1
+              },
+              {
+                "element": 560,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 201,
+                "value": 6
+              }
+            ],
+            "h": [
+              {
+                "element": 185,
+                "value": 2
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 199,
+                "value": 3
+              }
+            ],
+            "h": [
+              {
+                "element": 182,
+                "value": 2
+              },
+              {
+                "element": 180,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 199,
+                "value": 31
+              },
+              {
+                "element": 201,
+                "value": 18
+              },
+              {
+                "element": 216,
+                "value": 17
+              },
+              {
+                "element": 193,
+                "value": 14
+              },
+              {
+                "element": 200,
+                "value": 12
+              },
+              {
+                "element": 205,
+                "value": 12
+              },
+              {
+                "element": 210,
+                "value": 12
+              },
+              {
+                "element": 194,
+                "value": 10
+              },
+              {
+                "element": 207,
+                "value": 6
+              },
+              {
+                "element": 196,
+                "value": 5
+              },
+              {
+                "element": 585,
+                "value": 5
+              },
+              {
+                "element": 214,
+                "value": 3
+              },
+              {
+                "element": 211,
+                "value": 2
+              },
+              {
+                "element": 203,
+                "value": -3
+              }
+            ],
+            "h": [
+              {
+                "element": 182,
+                "value": 29
+              },
+              {
+                "element": 180,
+                "value": 27
+              },
+              {
+                "element": 189,
+                "value": 19
+              },
+              {
+                "element": 157,
+                "value": 18
+              },
+              {
+                "element": 185,
+                "value": 16
+              },
+              {
+                "element": 162,
+                "value": 12
+              },
+              {
+                "element": 168,
+                "value": 11
+              },
+              {
+                "element": 171,
+                "value": 10
+              },
+              {
+                "element": 163,
+                "value": 9
+              },
+              {
+                "element": 179,
+                "value": 8
+              },
+              {
+                "element": 181,
+                "value": 4
+              },
+              {
+                "element": 621,
+                "value": 4
+              },
+              {
+                "element": 560,
+                "value": -1
+              },
+              {
+                "element": 177,
+                "value": -2
+              }
+            ]
+          }
+        ],
+        "team_h_score": 1,
+        "team_a_score": 1,
+        "team_a": {
+          "name": "Crystal Palace",
+          "code": 31
+        },
+        "team_h": {
+          "code": 8,
+          "name": "Chelsea"
+        }
+      },
+      {
+        "finished": true,
+        "finished_provisional": true,
+        "id": 28,
+        "kickoff_time": "2024-09-01T12:30:00Z",
+        "minutes": 90,
+        "started": true,
+        "stats": [
+          {
+            "a": [],
+            "h": [
+              {
+                "element": 392,
+                "value": 1
+              },
+              {
+                "element": 401,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 491,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 402,
+                "value": 1
+              },
+              {
+                "element": 404,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": [
+              {
+                "element": 395,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 480,
+                "value": 1
+              },
+              {
+                "element": 482,
+                "value": 1
+              },
+              {
+                "element": 494,
+                "value": 1
+              },
+              {
+                "element": 499,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 394,
+                "value": 1
+              },
+              {
+                "element": 403,
+                "value": 1
+              },
+              {
+                "element": 404,
+                "value": 1
+              },
+              {
+                "element": 410,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 508,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 413,
+                "value": 6
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 503,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 401,
+                "value": 3
+              },
+              {
+                "element": 392,
+                "value": 2
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "element": 503,
+                "value": 20
+              },
+              {
+                "element": 491,
+                "value": 16
+              },
+              {
+                "element": 499,
+                "value": 16
+              },
+              {
+                "element": 482,
+                "value": 15
+              },
+              {
+                "element": 494,
+                "value": 13
+              },
+              {
+                "element": 492,
+                "value": 8
+              },
+              {
+                "element": 498,
+                "value": 8
+              },
+              {
+                "element": 505,
+                "value": 8
+              },
+              {
+                "element": 486,
+                "value": 5
+              },
+              {
+                "element": 509,
+                "value": 5
+              },
+              {
+                "element": 495,
+                "value": 4
+              },
+              {
+                "element": 508,
+                "value": 4
+              },
+              {
+                "element": 612,
+                "value": 4
+              },
+              {
+                "element": 481,
+                "value": 3
+              },
+              {
+                "element": 480,
+                "value": -1
+              }
+            ],
+            "h": [
+              {
+                "element": 401,
+                "value": 32
+              },
+              {
+                "element": 392,
+                "value": 30
+              },
+              {
+                "element": 404,
+                "value": 17
+              },
+              {
+                "element": 402,
+                "value": 16
+              },
+              {
+                "element": 413,
+                "value": 16
+              },
+              {
+                "element": 409,
+                "value": 10
+              },
+              {
+                "element": 394,
+                "value": 6
+              },
+              {
+                "element": 410,
+                "value": 6
+              },
+              {
+                "element": 417,
+                "value": 6
+              },
+              {
+                "element": 398,
+                "value": 5
+              },
+              {
+                "element": 405,
+                "value": 4
+              },
+              {
+                "element": 391,
+                "value": 3
+              },
+              {
+                "element": 399,
+                "value": 3
+              },
+              {
+                "element": 403,
+                "value": -5
+              }
+            ]
+          }
+        ],
+        "team_h_score": 2,
+        "team_a_score": 1,
+        "team_a": {
+          "name": "Spurs",
+          "code": 6
+        },
+        "team_h": {
+          "code": 4,
+          "name": "Newcastle"
+        }
+      },
+      {
+        "finished": true,
+        "finished_provisional": true,
+        "id": 27,
+        "kickoff_time": "2024-09-01T15:00:00Z",
+        "minutes": 90,
+        "started": true,
+        "stats": [
+          {
+            "a": [
+              {
+                "element": 327,
+                "value": 2
+              },
+              {
+                "element": 328,
+                "value": 1
+              }
+            ],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 328,
+                "value": 2
+              },
+              {
+                "element": 336,
+                "value": 1
+              }
+            ],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 339,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 378,
+                "value": 1
+              },
+              {
+                "element": 380,
+                "value": 1
+              },
+              {
+                "element": 389,
+                "value": 1
+              },
+              {
+                "element": 593,
+                "value": 1
+              }
+            ]
+          },
+          {
+            "a": [],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 310,
+                "value": 3
+              }
+            ],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 328,
+                "value": 3
+              },
+              {
+                "element": 327,
+                "value": 2
+              },
+              {
+                "element": 310,
+                "value": 1
+              }
+            ],
+            "h": []
+          },
+          {
+            "a": [
+              {
+                "element": 328,
+                "value": 60
+              },
+              {
+                "element": 327,
+                "value": 45
+              },
+              {
+                "element": 310,
+                "value": 31
+              },
+              {
+                "element": 326,
+                "value": 28
+              },
+              {
+                "element": 339,
+                "value": 28
+              },
+              {
+                "element": 336,
+                "value": 27
+              },
+              {
+                "element": 335,
+                "value": 25
+              },
+              {
+                "element": 323,
+                "value": 19
+              },
+              {
+                "element": 311,
+                "value": 17
+              },
+              {
+                "element": 329,
+                "value": 16
+              },
+              {
+                "element": 337,
+                "value": 4
+              },
+              {
+                "element": 313,
+                "value": 3
+              },
+              {
+                "element": 316,
+                "value": 3
+              },
+              {
+                "element": 321,
+                "value": 2
+              },
+              {
+                "element": 317,
+                "value": -2
+              }
+            ],
+            "h": [
+              {
+                "element": 385,
+                "value": 18
+              },
+              {
+                "element": 366,
+                "value": 16
+              },
+              {
+                "element": 613,
+                "value": 12
+              },
+              {
+                "element": 372,
+                "value": 9
+              },
+              {
+                "element": 378,
+                "value": 8
+              },
+              {
+                "element": 368,
+                "value": 5
+              },
+              {
+                "element": 369,
+                "value": 5
+              },
+              {
+                "element": 377,
+                "value": 5
+              },
+              {
+                "element": 364,
+                "value": 3
+              },
+              {
+                "element": 370,
+                "value": 3
+              },
+              {
+                "element": 383,
+                "value": -1
+              },
+              {
+                "element": 380,
+                "value": -5
+              },
+              {
+                "element": 389,
+                "value": -6
+              }
+            ]
+          }
+        ],
+        "team_h_score": 0,
+        "team_a_score": 3,
+        "team_a": {
+          "name": "Liverpool",
+          "code": 14
+        },
+        "team_h": {
+          "code": 1,
+          "name": "Man Utd"
+        }
+      }
+    ]
+  }
+}

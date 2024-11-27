@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" href="./images/logo.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "@material/web/": "https://esm.run/@material/web/"
+        }
+      }
+    </script>
+    <script type="module">
+      import "@material/web/all.js";
+      import { styles as typescaleStyles } from "@material/web/typography/md-typescale-styles.js";
+
+      document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="loading active">
+      <div><img src="./images/logo.png" alt="" /></div>
+    </div>
+    <main>
+      <aside class="sideNav">
+        <ul>
+          <img src="./images/logo.png" alt="" srcset="" />
+          <li class="tooltip active" tooltip="My Team">
+            <a href="./lineup.html"> <i class="fa-solid fa-shirt"></i></a>
+          </li>
+          <li class="tooltip" tooltip="Overview">
+            <a href="./overview.html"> <i class="fa fa-th-large"></i></a>
+          </li>
+          <li class="tooltip" tooltip="Points">
+            <a href="./lineup.html"> <i class="fa fa-star"></i></a>
+          </li>
+          <li class="tooltip" tooltip="Transfers">
+            <a href="#"> <i class="fa fa-play"></i></a>
+          </li>
+          <li class="tooltip" tooltip="League">
+            <a href="#"> <i class="fa fa-list"></i></a>
+          </li>
+          <li class="tooltip" tooltip="Fixtures">
+            <a href="./matches.html"> <i class="fa fa-futbol"></i></a>
+          </li>
+          <li class="tooltip" tooltip="The Scout">
+            <a href="#"> <i class="fa fa-binoculars"></i></a>
+          </li>
+        </ul>
+      </aside>
+      <section class="overview">
+        <div class="container">
+          <header class="team--overview">
+            <div>
+              <div class="team--name">
+                <p>My Team</p>
+                <span id="teamName"> ibrahim </span>
+              </div>
+            </div>
+            <div class="team--points">
+              <div>
+                <p>Total Points</p>
+                <span id="totalPoints">1250</span>
+              </div>
+              <div>
+                <p>Rank</p>
+                <span id="teamRank" class="stats--figure">125250</span>
+              </div>
+              <div>
+                <p>Old Rank</p>
+                <span id="old_rank" class="stats--figure">25510</span>
+              </div>
+            </div>
+          </header>
+          <section class="overview--stats">
+            <div class="left">
+              <section class="team--stats">
+                <div class="perform--graiph">
+                  <form class="controllers">
+                    <div class="type">
+                      <div>
+                        <input type="radio" name="type" id="points" />
+                        <label for="points">Points</label>
+                      </div>
+                      <div class="bar"><div class="check"></div></div>
+
+                      <div>
+                        <input type="radio" name="type" id="rank" />
+                        <label for="rank">Rank</label>
+                      </div>
+                    </div>
+                    <div class="chips">
+                      <div id="wildcard">
+                        <span class="gw"></span>
+                        <p class="chip--name">WC1</p>
+                      </div>
+                      <div id="wildcard">
+                        <span class="gw"></span>
+                        <p class="chip--name">WC2</p>
+                      </div>
+                      <div id="tc">
+                        <span class="gw"></span>
+                        <p class="chip--name">TC</p>
+                      </div>
+                      <div id="bboost">
+                        <span class="gw"></span>
+                        <p class="chip--name">BB</p>
+                      </div>
+                      <div id="freehit">
+                        <span class="gw"></span>
+                        <p class="chip--name">FH</p>
+                      </div>
+                    </div>
+                  </form>
+                  <div>
+                    <canvas id="team--diagram"></canvas>
+                  </div>
+                </div>
+              </section>
+              <div class="more--info">
+                <div class="my--mvp">
+                  <div class="content--loading"><div class="loader"></div></div>
+                  <div class="content">
+                    <div class="player--info">
+                      <div class="player--img">
+                        <img
+                          src="https://resources.premierleague.com/premierleague/photos/players/250x250/p514356.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="player--name">
+                        <p class="fname">Roméo</p>
+                        <span class="lname">Lavia</span>
+                      </div>
+                    </div>
+                    <div class="mvp--stats">
+                      <div>
+                        <p>Games</p>
+                        <span id="mvpGames">350</span>
+                      </div>
+                      <div>
+                        <p>Minuts</p>
+                        <span id="mvpGames">350</span>
+                      </div>
+                      <div>
+                        <p>Goals</p>
+                        <span id="mvpGames">350</span>
+                      </div>
+                      <div>
+                        <p>Asists</p>
+                        <span id="mvpGames">22</span>
+                      </div>
+                      <div>
+                        <p>Clean Sheets</p>
+                        <span id="mvpGames">350</span>
+                      </div>
+                    </div>
+                    <div class="mvp--fstats">
+                      <div>
+                        <p>Games</p>
+                        <span id="mvpGames">350</span>
+                      </div>
+                      <div>
+                        <p>Games</p>
+                        <span id="mvpGames">350</span>
+                      </div>
+                      <div>
+                        <p>Games</p>
+                        <span id="mvpGames">350</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="similarity">
+                  <h2>similarity to the top 10K teams</h2>
+                  <span id="similVal">50%</span>
+                  <div class="simil--bar">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+                <div class="points--pos">
+                  <h2>Points by Postion</h2>
+                  <div class="pbp--chart">
+                    <div>
+                      <div class="bar">
+                        <span class="val" aria-valuenow="25%">352</span>
+                      </div>
+                      <span class="pos">GK</span>
+                    </div>
+                    <div>
+                      <div class="bar"><span class="val">352</span></div>
+
+                      <span class="pos">DEF</span>
+                    </div>
+                    <div class="most">
+                      <div class="bar"><span class="val">352</span></div>
+
+                      <span class="pos">MID</span>
+                    </div>
+                    <div>
+                      <div class="bar"><span class="val">352</span></div>
+
+                      <span class="pos">FW</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="team--val">
+                  <h2>Team Value</h2>
+                  <div>
+                    <div>
+                      <p>Squad</p>
+                      <span id="teamVal">101.4</span>
+                    </div>
+                    <div>
+                      <p>+/-</p>
+                      <span id="teamVal">101.4</span>
+                    </div>
+                    <div>
+                      <p>in the bank</p>
+                      <span id="teamVal">101.4</span>
+                    </div>
+                    <div>
+                      <p>Transfers</p>
+                      <span id="teamVal">101.4</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="next--gw">
+                <div class="deadline">
+                  <h2>Gameweek <span id="nextGw">4</span>'s Deadline</h2>
+                  <div>
+                    <div>
+                      <span id="day">
+                        <span class="figures">
+                          <span>0</span>
+                          <span>1</span>
+                          <span>2</span>
+                          <span>3</span>
+                          <span>4</span>
+                          <span>5</span>
+                          <span>6</span>
+                          <span>7</span>
+                          <span>8</span>
+                          <span>9</span>
+                        </span>
+                        <span class="figures">
+                          <span>0</span>
+                          <span>1</span>
+                          <span>2</span>
+                          <span>3</span>
+                          <span>4</span>
+                          <span>5</span>
+                          <span>6</span>
+                          <span>7</span>
+                          <span>8</span>
+                          <span>9</span>
+                        </span>
+                        <span class="char">:</span></span
+                      >
+                      <p>Day</p>
+                    </div>
+                    <div>
+                      <span id="hours">
+                        <span class="figures">
+                          <span>0</span>
+                          <span>1</span>
+                          <span>2</span>
+                          <span>3</span>
+                          <span>4</span>
+                          <span>5</span>
+                          <span>6</span>
+                          <span>7</span>
+                          <span>8</span>
+                          <span>9</span>
+                        </span>
+                        <span class="figures">
+                          <span>0</span>
+                          <span>1</span>
+                          <span>2</span>
+                          <span>3</span>
+                          <span>4</span>
+                          <span>5</span>
+                          <span>6</span>
+                          <span>7</span>
+                          <span>8</span>
+                          <span>9</span>
+                        </span>
+                        <span class="char">:</span>
+                      </span>
+                      <p>Hours</p>
+                    </div>
+                    <div>
+                      <span id="minutes">
+                        <span class="figures">
+                          <span>0</span>
+                          <span>1</span>
+                          <span>2</span>
+                          <span>3</span>
+                          <span>4</span>
+                          <span>5</span>
+                          <span>6</span>
+                          <span>7</span>
+                          <span>8</span>
+                          <span>9</span>
+                        </span>
+                        <span class="figures">
+                          <span>0</span>
+                          <span>1</span>
+                          <span>2</span>
+                          <span>3</span>
+                          <span>4</span>
+                          <span>5</span>
+                          <span>6</span>
+                          <span>7</span>
+                          <span>8</span>
+                          <span>9</span>
+                        </span>
+                        <span class="char">:</span></span
+                      >
+                      <p>Minutes</p>
+                    </div>
+                    <div>
+                      <span id="sec">
+                        <span class="figures">
+                          <span>0</span>
+                          <span>1</span>
+                          <span>2</span>
+                          <span>3</span>
+                          <span>4</span>
+                          <span>5</span>
+                          <span>6</span>
+                          <span>7</span>
+                          <span>8</span>
+                          <span>9</span>
+                        </span>
+                        <span class="figures">
+                          <span>0</span>
+                          <span>1</span>
+                          <span>2</span>
+                          <span>3</span>
+                          <span>4</span>
+                          <span>5</span>
+                          <span>6</span>
+                          <span>7</span>
+                          <span>8</span>
+                          <span>9</span>
+                        </span>
+                      </span>
+                      <p>Seconds</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="injurd--players">
+                  <h3>
+                    You have <span id="inj--players">3</span> injured Players:
+                  </h3>
+                  <div class="players">
+                    <div>
+                      <img
+                        src="https://resources.premierleague.com/premierleague/photos/players/250x250/p219847.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <a href="./lineup.html"
+                    >Go to my team <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="fixtures">
+                <h2>Next fixtures</h2>
+                <h3>Saturday,20 October 2024</h3>
+                <div class="matches"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script type="module" src="./js/main.js"></script>
+  <script type="module" src="./js/server.js"></script>
+  <script
+    src="https://kit.fontawesome.com/8004158925.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</html>

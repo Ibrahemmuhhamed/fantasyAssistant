@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/lineup.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "@material/web/": "https://esm.run/@material/web/"
+        }
+      }
+    </script>
+    <script type="module">
+      import "@material/web/all.js";
+      import { styles as typescaleStyles } from "@material/web/typography/md-typescale-styles.js";
+
+      document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="loading active">
+        <div><img src="./images/logo.png" alt="" /></div>
+      </div>
+      <aside class="sideNav">
+        <ul>
+          <img src="./images/logo.png" alt="" srcset="" />
+          <li class="tooltip active" tooltip="My Team">
+            <a href="./lineup.html"> <i class="fa-solid fa-shirt"></i></a>
+          </li>
+          <li class="tooltip" tooltip="Overview">
+            <a href="./overview.html"> <i class="fa fa-th-large"></i></a>
+          </li>
+          <li class="tooltip" tooltip="Points">
+            <a href="./lineup.html"> <i class="fa fa-star"></i></a>
+          </li>
+          <li class="tooltip" tooltip="Transfers">
+            <a href="#"> <i class="fa fa-play"></i></a>
+          </li>
+          <li class="tooltip" tooltip="League">
+            <a href="#"> <i class="fa fa-list"></i></a>
+          </li>
+          <li class="tooltip" tooltip="Fixtures">
+            <a href="./matches.html"> <i class="fa fa-futbol"></i></a>
+          </li>
+          <li class="tooltip" tooltip="The Scout">
+            <a href="#"> <i class="fa fa-binoculars"></i></a>
+          </li>
+        </ul>
+      </aside>
+      <section class="overview lineup--section">
+        <div class="overlay">
+          <div class="points--explain">
+            <h2 class="name">Hallend</h2>
+            <ul class="head">
+              <li>Statistic</li>
+              <li>Value</li>
+              <li>Points</li>
+            </ul>
+            <ul class="pl-stats">
+              <li>Goal scored</li>
+              <li>1</li>
+              <li>6</li>
+            </ul>
+          </div>
+        </div>
+        <div class="container">
+          <div class="team--info">
+            <div class="gw--details">
+              <div class="controllers">
+                <div class="curr--gw">
+                  <h3>Gameweek</h3>
+                  <span id="gw--num">3</span>
+                  <div class="options">
+                    <div></div>
+                  </div>
+                </div>
+                <div class="curr--manager">
+                  <h3>Manager</h3>
+                  <span id="managerName">Ibrahim</span>
+                </div>
+                <div class="next">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+              <div class="gw--form">
+                <div>
+                  <h3>Live Points</h3>
+                  <span id="livePoints">86</span>
+                </div>
+                <div>
+                  <h3>Overall Points</h3>
+                  <span id="overallPoints">184</span>
+                </div>
+                <div>
+                  <h3>Gw Rank</h3>
+                  <span id="gwRank">585758</span>
+                </div>
+                <div>
+                  <h3>Value</h3>
+                  <span id="value" class="stats stats--figure">100.3</span>
+                </div>
+                <div>
+                  <h3>Overall</h3>
+                  <span id="overallRank" class="stats stats--figure"
+                    >124455</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="lineup">
+              <div class="player">
+                <img
+                  src="https://fantasy.premierleague.com/dist/img/shirts/standard/shirt_7-110.webp"
+                  alt=""
+                  srcset=""
+                />
+                <h2 class="player--name">M.Salah</h2>
+                <h3 class="player--points">25</h3>
+              </div>
+              <div class="player">
+                <img
+                  src="https://fantasy.premierleague.com/dist/img/shirts/standard/shirt_7-110.webp"
+                  alt=""
+                  srcset=""
+                />
+                <h2 class="player--name">M.Salah</h2>
+                <h3 class="player--points">25</h3>
+              </div>
+              <div class="player">
+                <img
+                  src="https://fantasy.premierleague.com/dist/img/shirts/standard/shirt_7-110.webp"
+                  alt=""
+                  srcset=""
+                />
+                <h2 class="player--name">M.Salah</h2>
+                <h3 class="player--points">25</h3>
+              </div>
+              <div class="player">
+                <img
+                  src="https://fantasy.premierleague.com/dist/img/shirts/standard/shirt_7-110.webp"
+                  alt=""
+                  srcset=""
+                />
+                <h2 class="player--name">M.Salah</h2>
+                <h3 class="player--points">25</h3>
+              </div>
+              <div class="player">
+                <img
+                  src="https://fantasy.premierleague.com/dist/img/shirts/standard/shirt_7-110.webp"
+                  alt=""
+                  srcset=""
+                />
+                <h2 class="player--name">M.Salah</h2>
+                <h3 class="player--points">25</h3>
+              </div>
+              <div class="player">
+                <img
+                  src="https://fantasy.premierleague.com/dist/img/shirts/standard/shirt_7-110.webp"
+                  alt=""
+                  srcset=""
+                />
+                <h2 class="player--name">M.Salah</h2>
+                <h3 class="player--points">25</h3>
+              </div>
+              <div class="player">
+                <img
+                  src="https://fantasy.premierleague.com/dist/img/shirts/standard/shirt_7-110.webp"
+                  alt=""
+                  srcset=""
+                />
+                <h2 class="player--name">M.Salah</h2>
+                <h3 class="player--points">25</h3>
+              </div>
+              <div class="player">
+                <img
+                  src="https://fantasy.premierleague.com/dist/img/shirts/standard/shirt_7-110.webp"
+                  alt=""
+                  srcset=""
+                />
+                <h2 class="player--name">M.Salah</h2>
+                <h3 class="player--points">25</h3>
+              </div>
+              <div class="player">
+                <img
+                  src="https://fantasy.premierleague.com/dist/img/shirts/standard/shirt_7-110.webp"
+                  alt=""
+                  srcset=""
+                />
+                <h2 class="player--name">M.Salah</h2>
+                <h3 class="player--points">25</h3>
+              </div>
+              <div class="player">
+                <img
+                  src="https://fantasy.premierleague.com/dist/img/shirts/standard/shirt_7-110.webp"
+                  alt=""
+                  srcset=""
+                />
+                <h2 class="player--name">M.Salah</h2>
+                <h3 class="player--points">25</h3>
+              </div>
+              <div class="player">
+                <img
+                  src="https://fantasy.premierleague.com/dist/img/shirts/standard/shirt_7-110.webp"
+                  alt=""
+                  srcset=""
+                />
+                <h2 class="player--name">M.Salah</h2>
+                <h3 class="player--points">25</h3>
+              </div>
+            </div>
+            <div class="subs"></div>
+          </div>
+          <div class="fixtures--container">
+            <div>
+              <h2>Fixtures</h2>
+              <div class="curr--gw">
+                <h3>Gameweek</h3>
+                <span id="gw--num">3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <!-- <script type="module" src="main.js"></script> -->
+  <script type="module" src="./js/lineup.js"></script>
+  <script type="module" src="./js/server.js"></script>
+  <script
+    src="https://kit.fontawesome.com/8004158925.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</html>

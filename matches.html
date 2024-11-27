@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" href="./images/logo.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/matches.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "@material/web/": "https://esm.run/@material/web/"
+        }
+      }
+    </script>
+    <script type="module">
+      import "@material/web/all.js";
+      import { styles as typescaleStyles } from "@material/web/typography/md-typescale-styles.js";
+
+      document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div class="loading active">
+      <div><img src="./images/logo.png" alt="" /></div>
+    </div> -->
+    <main>
+      <aside class="sideNav">
+        <ul>
+          <img src="./images/logo.png" alt="" srcset="" />
+          <li class="tooltip active" tooltip="My Team">
+            <a href="./lineup.html"> <i class="fa-solid fa-shirt"></i></a>
+          </li>
+          <li class="tooltip" tooltip="Overview">
+            <a href="./overview.html"> <i class="fa fa-th-large"></i></a>
+          </li>
+          <li class="tooltip" tooltip="Points">
+            <a href="./lineup.html"> <i class="fa fa-star"></i></a>
+          </li>
+          <li class="tooltip" tooltip="Transfers">
+            <a href="#"> <i class="fa fa-play"></i></a>
+          </li>
+          <li class="tooltip" tooltip="League">
+            <a href="#"> <i class="fa fa-list"></i></a>
+          </li>
+          <li class="tooltip" tooltip="Fixtures">
+            <a href="./matches.html"> <i class="fa fa-futbol"></i></a>
+          </li>
+          <li class="tooltip" tooltip="The Scout">
+            <a href="#"> <i class="fa fa-binoculars"></i></a>
+          </li>
+        </ul>
+      </aside>
+      <section class="matches--section">
+        <div class="container">
+          <div class="head">
+            <div class="days--container">
+              <h3>Calendar Month : <span id="monthID">October</span></h3>
+              <div>
+                <button class="before--btn">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <ul class="days">
+                  <div></div>
+                </ul>
+
+                <button class="after--btn">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+            <ul class="filters">
+              <h3>Filter by Match Type</h3>
+              <li>All</li>
+              <li>LIVE NOW</li>
+            </ul>
+          </div>
+          <div class="matches">
+            <div class="matches--title">
+              <h1>Today's Matches</h1>
+              <h3>Wednesday, 16 October 2024</h3>
+            </div>
+            <div class="loading--matches">
+              <div class="loader"></div>
+            </div>
+            <div class="matches--container"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/8004158925.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./js/matches.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</html>

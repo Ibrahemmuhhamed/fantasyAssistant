@@ -1,0 +1,180 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.fixtures {
+  background-color: var(--dark-background);
+}
+.section--title {
+  padding: 30px 30px;
+  background-color: var(--dark-background);
+  font-size: clamp(24px, 3vw, 33.9px);
+  color: var(--primary-green);
+}
+.match {
+  padding: 15px 0;
+  width: 100%;
+  /* gap: 20px; */
+}
+.match--info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--dark-background);
+  border-radius: 20px;
+  gap: 15px;
+  padding: 25px;
+}
+.sides {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr auto 1fr;
+  width: min(100%, 850px);
+}
+.sides h1 {
+  padding-inline: 10px;
+}
+.sides .padge {
+  width: 50px;
+  object-fit: contain;
+  height: 100%;
+  display: block;
+}
+.sides > div {
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  position: relative;
+  height: 100%;
+  /* width: min(100%, 200px); */
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  height: 100%;
+  max-height: 70px;
+  /* width: min(100%, 200px); */
+}
+
+.side--a {
+  flex-direction: row-reverse;
+}
+.side--a .padge {
+  transform: translateX(50%);
+}
+.side--h .padge {
+  transform: translateX(-50%);
+}
+.sides > div > * {
+  z-index: 1;
+}
+.clock {
+  background-color: #fff;
+  height: 100%;
+  color: var(--dark-background);
+  /* border-radius: 10px; */
+  font-weight: 600;
+  padding-inline: 25px;
+  font-size: 5em !important;
+  position: relative;
+}
+.clock.live,
+.clock.finished {
+  background-color: var(--accent-yellow);
+  color: var(--light-background);
+}
+.deadline > div > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.3em;
+  margin-block: 5px;
+}
+.deadline > div {
+  display: flex;
+  font-size: 1.3em;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+.info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 5px 5px 0 0;
+  padding-inline: 15px;
+  transform: translateY(16px);
+  font-size: 1.2em;
+}
+.info > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.info img {
+  width: 15px;
+}
+
+.bar > span {
+  height: fit-content;
+  /* position: absolute; */
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #1b1f24;
+  width: fit-content;
+  grid-row: 1;
+}
+.bar > span.ht {
+  grid-column: 45;
+}
+.deadline span {
+  font-weight: 600;
+}
+.deadline p {
+  font-size: 0.7em;
+  color: var(--secondary-grey);
+  font-weight: 500;
+}
+.odds {
+  width: 100%;
+}
+.odds h2 {
+  text-align: center;
+}
+.teams > * {
+  text-align: center;
+  flex: 1;
+  font-size: 14px;
+}
+.bar {
+  width: 100%;
+  margin-block: 10px;
+  height: 32px !important;
+  background-color: #2a2e35;
+  display: flex;
+  justify-content: space-between;
+}
+.bar > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+.h-odd {
+  width: 50%;
+  background-color: #e20613;
+  height: 100%;
+  /* text-align: center; */
+}
+.d-odd {
+  flex: 1;
+}
+.a-odd {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  background-color: #0054a5;
+}

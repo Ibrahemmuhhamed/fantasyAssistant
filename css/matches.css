@@ -1,0 +1,216 @@
+:root {
+  --border-color: #444343;
+  --second-color: #949494;
+}
+.matches--section {
+  .container {
+    display: grid;
+    gap: 25px;
+  }
+  .head {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    font-size: 13px;
+    padding-block: 25px;
+    border-bottom: 1px solid var(--border-color);
+    h3 {
+      grid-column: span 2;
+
+      margin-bottom: 20px;
+    }
+    .days--container {
+      border-right: 1px solid var(--border-color);
+      max-width: 100%;
+    }
+  }
+
+  .days--container > div {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    align-items: center;
+    max-width: calc(100vw - 2.5%);
+    padding-right: 50px;
+  }
+  ul.days > div {
+    gap: 15px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(7, 1fr);
+    width: fit-content;
+    align-items: center;
+    list-style: none;
+  }
+  ul.days {
+    flex: 1;
+    overflow: hidden;
+  }
+  ul.days li {
+    /* font-size: 12px; */
+    padding: 10px 10px;
+    border: 1px solid var(--border-color);
+    text-wrap: nowrap;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    transition: 200ms border;
+  }
+  ul.days li.active,
+  ul.days li:hover {
+    font-weight: 700;
+    border: 1px solid #fff;
+  }
+  .head button {
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    border: navajowhite;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    background-color: transparent;
+    width: 30px;
+    height: auto;
+    min-width: 35px;
+    width: auto;
+    height: fit-content;
+    cursor: pointer;
+    transition: background-color 200ms;
+    /* height: fit-content; */
+  }
+  .head button:hover {
+    background-color: var(--border-color);
+  }
+  .filters {
+    min-width: 230px;
+    :not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+
+  .filters li {
+    padding: 10px 30px;
+    font-size: 15px;
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+    transition: 200ms border;
+  }
+  .filters li:hover {
+    border: 1px solid #fff;
+  }
+  img {
+    width: 35px;
+    aspect-ratio: 1;
+    object-fit: contain;
+  }
+  .matches--title {
+    display: grid;
+    font-size: 13px;
+    gap: 10px;
+    height: fit-content;
+    h3 {
+      color: var(--second-color);
+    }
+  }
+  .match {
+    display: flex;
+    align-items: center;
+    /* width: min(350px, 100%); */
+    font-size: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: 200ms transform;
+  }
+  a.match:hover {
+    transform: translateY(-10px);
+  }
+
+  .team {
+    flex: 1;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    text-wrap: nowrap;
+    align-items: center;
+    font-size: 12.9px;
+    padding-inline: 20px;
+    gap: 10px;
+  }
+  .matches {
+    padding-block: 35px;
+    display: grid;
+    gap: 20px;
+    position: relative;
+    min-height: 500px;
+    .matches--container {
+      display: grid;
+      gap: 45px;
+    }
+  }
+  .loading--matches {
+    position: absolute;
+    inset: 0;
+    background-color: #0a0a0a;
+    z-index: 11;
+    display: none;
+    justify-content: center;
+    /* padding-top: 65px; */
+    align-items: center;
+  }
+  /* HTML: <div class="loader"></div> */
+  /* HTML: <div class="loader"></div> */
+
+  .tournament--matches {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    font-size: 13px;
+
+    h1 {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      grid-column: 1 / -1;
+    }
+  }
+  .teams {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    border-right: 1px solid var(--border-color);
+    padding-right: 20px;
+  }
+  .result {
+    font-weight: 800;
+  }
+  .teams > div,
+  .teams > div > * {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .info .date {
+    font-weight: 600;
+  }
+  .info .stats {
+    font-weight: 400;
+    color: var(--second-color);
+    text-align: center;
+  }
+}
+@media screen and (width < 1024px) {
+  .days--container > div {
+    padding-right: 0px !important;
+  }
+}
+/* HTML: <div class="loader"></div> */
+/* HTML: <div class="loader"></div> */
