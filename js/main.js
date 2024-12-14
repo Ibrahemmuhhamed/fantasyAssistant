@@ -1,4 +1,4 @@
-const userId = 5510390;
+const userId = 255130;
 const playerIds = [];
 const playerPoints = {};
 let nextGWDeadLine;
@@ -199,15 +199,19 @@ const stadiums = {
 
 async function getData(query) {
   try {
-    const response = await fetch("http://localhost:4500/graphql", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        query: query,
-      }),
-    });
+    // https://graphql-fpl-api-633a953946bc.herokuapp.com/graphql
+    const response = await fetch(
+      "https://graphql-fpl-api-633a953946bc.herokuapp.com/graphql",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          query: query,
+        }),
+      }
+    );
 
     const data = await response.json();
     // loading.classList.remove("active");
@@ -337,8 +341,8 @@ async function calcUserMVP() {
     const playersDataPerGw = (await getPlayersDateinGw(gw)).elements;
     for (const ele of picks) {
       const id = ele.element.id;
-      const playerStats = playersDataPerGw[id - 1].stats;
-      const points = playerStats.total_points;
+      const playerStats = playersDataPerGw[id - 1]?.stats;
+      const points = playerStats?.total_points ?? 0;
       const multiplier = ele.multiplier;
       const pos = ele.element.element_type.id - 1;
       positionPoints[pos] += points * multiplier;

@@ -94,13 +94,15 @@ gameWeekControler.addEventListener("click", () => {
 console.log(teams);
 async function getUserPicks(gw, userID) {
   try {
-    const response = await fetch("http://localhost:4500/graphql", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        query: `
+    const response = await fetch(
+      "https://graphql-fpl-api-633a953946bc.herokuapp.com/graphql",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          query: `
           query MyQuery($userID: Int!, $gw: Int!) {
             manager(id: $userID) {
               squad(gwId: $gw) {
@@ -131,12 +133,13 @@ async function getUserPicks(gw, userID) {
             }
           }
         `,
-        variables: {
-          userID,
-          gw,
-        },
-      }),
-    });
+          variables: {
+            userID,
+            gw,
+          },
+        }),
+      }
+    );
 
     const data = await response.json();
     return data;
@@ -145,13 +148,15 @@ async function getUserPicks(gw, userID) {
   }
 }
 async function getData() {
-  const req = await fetch("http://localhost:4500/graphql", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      query: `
+  const req = await fetch(
+    "https://graphql-fpl-api-633a953946bc.herokuapp.com/graphql",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        query: `
          query MyQuery {
   gameweek(is_current: true) {
     id
@@ -175,8 +180,9 @@ async function getData() {
     }
   }
 } `,
-    }),
-  });
+      }),
+    }
+  );
   const data = await req.json();
   currGw = data.data.gameweek.id;
   getFixture(currGw);
