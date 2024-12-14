@@ -278,7 +278,9 @@ function createGwLabels(maxCurrGw, currGw, managerHistory) {
   }
 }
 async function getPlayersDateinGw(gw) {
-  const req = await fetch(`http://localhost:1234/api/event/${gw}`);
+  const req = await fetch(
+    `https://fantasyassistant-production.up.railway.app/api/event/${gw}`
+  );
   const data = await req.json();
   return data;
 }
@@ -417,7 +419,9 @@ function createGridArea(formation) {
 }
 async function getFixture() {
   console.log(currGw);
-  const req = await fetch(`http://localhost:1234/getFixtures/${currGw}`);
+  const req = await fetch(
+    `https://fantasyassistant-production.up.railway.app/getFixtures/${currGw}`
+  );
   const data = await req.json();
   console.log(data);
   // console.log(data);

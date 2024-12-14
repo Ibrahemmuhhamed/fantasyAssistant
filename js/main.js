@@ -222,7 +222,10 @@ async function getData(query) {
   }
 }
 async function getFplData() {
-  const req = await fetch("http://localhost:1234/api/bootstrap-static");
+  //
+  const req = await fetch(
+    "https://fantasyassistant-production.up.railway.app/api/bootstrap-static"
+  );
   const data = await req.json();
   nextGWDeadLine = new Date(data.events[currGW].deadline_time);
   if (nextGWDeadLine) {
@@ -318,7 +321,9 @@ async function fixtures() {
 // console.log(currIsFinshed);
 
 async function getPlayersDateinGw(gw) {
-  const req = await fetch(`http://localhost:1234/api/event/${gw}`);
+  const req = await fetch(
+    `https://fantasyassistant-production.up.railway.app/api/event/${gw}`
+  );
   const data = await req.json();
   return data;
 }
@@ -599,7 +604,11 @@ function calcPointsPyPostion(playersData, teamPlayers, points) {
   // console.log(posPointsDiv);
 }
 async function getMatchesApi() {
-  const req = await fetch(`http://localhost:1234/getMatches/${currGW + 1}`);
+  const req = await fetch(
+    `https://fantasyassistant-production.up.railway.app/getMatches/${
+      currGW + 1
+    }`
+  );
   const data = await req.json();
   return data.matches;
 }

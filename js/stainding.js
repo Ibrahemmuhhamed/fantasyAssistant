@@ -1,6 +1,6 @@
 async function getStanding() {
   const req = await fetch(
-    "http://localhost:1234/footballApi/competitions-PL-standings?season=2024&matchday=7"
+    "https://fantasyassistant-production.up.railway.app/footballApi/competitions-PL-standings?season=2024&matchday=7"
   );
   console.log(req);
   const data = await req.json();
