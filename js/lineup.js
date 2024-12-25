@@ -1,6 +1,21 @@
 let teams = [];
 let teamPlayersData = [];
-const teamId = 5510390;
+let teamId;
+
+import { promise } from "./main.js";
+
+promise.then((id) => {
+  teamId = +id;
+  console.log(teamId);
+  getPlayersCode()
+    .then(getData())
+    .then()
+    .then(() => {
+      setTimeout(() => {
+        loading.classList.remove("active");
+      }, 1000);
+    });
+});
 let formation = {};
 let currGw;
 let fblplayersData;
@@ -12,7 +27,6 @@ const pointsExplainDiv = document.querySelector(".points--explain");
 const overlay = document.querySelector(".overlay");
 const livePoints = document.querySelector("#livePoints");
 const loading = document.querySelector(".loading");
-
 overlay.addEventListener("click", (e) => {
   if (e.target.classList.contains("overlay")) {
     overlay.classList.remove("active");
@@ -318,8 +332,8 @@ async function displayLineUp(gw) {
 
     playerDiv.classList.add("player");
     const name = player["element"]["web_name"];
-    const playerstats = playersData[id - 1].stats;
-    const points = playerstats["total_points"];
+    const playerstats = playersData[id - 1]?.stats;
+    const points = playerstats?.total_points;
     const playerPoints = points * player.multiplier;
     if (isLive) {
       playerDiv.classList.add("live");
@@ -525,7 +539,7 @@ function displayFixture(fixtures) {
       }
       const statsDiv = document.createElement("div");
       statsDiv.classList.add("stats--info");
-      statsDiv.innerHTML = `<h2>${stats[i].identifier}</h2>
+      statsDiv.innerHTML = `<h2>${stats[i].identifier.replace("_", " ")}</h2>
       <div><div class="h"></div><div class="a"></div></div>`;
       div.appendChild(statsDiv);
 
@@ -556,14 +570,6 @@ function displayFixture(fixtures) {
   }
 }
 
-getPlayersCode()
-  .then(getData())
-  .then()
-  .then(() => {
-    setTimeout(() => {
-      loading.classList.remove("active");
-    }, 1000);
-  });
 async function getStats() {
   const req = await fetch("js/stats.json");
   const data = await req.json();

@@ -128,12 +128,26 @@
     grid-area: Fw3;
   } */
   .points--explain {
-    display: flex;
+    display: none;
     flex-direction: column;
     width: min(660px, 100%);
+    transform: translateY(50px);
+    opacity: 0;
     background-color: var(--tertiary-grey);
     padding: 20px 30px;
     box-shadow: 1px 1px 12px 6px #000000a1;
+    transition: var(--popover-time) all;
+    transition-behavior: allow-discrete;
+  }
+
+  .overlay.active .points--explain {
+    display: flex;
+    transform: translateY(0px);
+    opacity: 1;
+    @starting-style {
+      transform: translateY(50px);
+      opacity: 0;
+    }
   }
   .points--explain h2 {
     font-size: 23px;
@@ -150,7 +164,7 @@
     width: 100%;
     justify-content: space-between;
     font-size: 1.4em;
-    border-bottom: 1px solid var(--dark-background);
+    border-bottom: 1px solid #292929;
     padding-block: 10px;
   }
 
@@ -263,11 +277,14 @@
     grid-template-rows: 0fr;
     overflow: hidden;
     position: absolute;
+    border-radius: 5px;
     bottom: 0;
-    transform: translateY(100%);
+    box-shadow: 0px 1px 2px 1px #20202054;
+    transform: translateY(calc(100% + 5px));
+    max-height: 300px;
     /* padding: inherit; */
     width: 100%;
-    background-color: var(--primary-blue);
+    background-color: var(--dark-background);
     z-index: 9955;
     left: 0;
     font-size: 1.4em;
@@ -276,14 +293,14 @@
   .options > div {
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    overflow-y: scroll;
   }
   .curr--gw.active .options {
     grid-template-rows: 1fr;
   }
   .options > div > * {
     /* background-color: aqua; */
-    border-bottom: 1px solid #2d6fd9;
+    border-bottom: 1px solid #0a0a0a;
     padding: 10px 10px;
     font-weight: 600;
     color: #ffffff;
@@ -373,6 +390,7 @@
           background-color: var(--light-background);
           width: 100%;
           text-align: center;
+          text-transform: capitalize;
         }
         .match--stats > div {
           display: flex;
@@ -415,11 +433,10 @@
           padding: 5px 0px;
           font-weight: 600;
           display: flex;
-          /* padding: 5px 15px; */
           width: 100%;
+          align-items: center;
           height: 100%;
           font-size: 13px;
-          /* letter-spacing: 0; */
           text-align: center;
           flex-basis: 60px;
           justify-content: space-around;
@@ -440,8 +457,9 @@
       content: "";
       position: absolute;
       height: 70%;
-      width: 2px;
-      background-color: aliceblue;
+      width: 1px;
+      background-color: var(--secondary-grey);
+      opacity: 0.2;
       top: 50%;
       transform: translateY(-50%);
     }
